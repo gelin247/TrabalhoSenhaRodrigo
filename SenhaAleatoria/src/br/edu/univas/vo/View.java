@@ -61,22 +61,22 @@ public class View {
 
 	public void cadastro() {
 
-		System.out.println("Qual o tamanho mÌnimo de senha que deseja?\n");
+		System.out.println("Qual o tamanho m√≠nimo de senha que deseja?\n");
 		setTamMin(scanner.nextInt());
 
-		System.out.println("Qual o tamanho m·ximo de senha que deseja?\n");
+		System.out.println("Qual o tamanho m√°ximo de senha que deseja?\n");
 		setTamMax(scanner.nextInt());
 
-		System.out.println("Deseja que contenha letras maiusculas?\n1-SIM	2-N√O");
+		System.out.println("Deseja que contenha letras maiusculas?\n1-SIM	2-N√ÉO");
 		setLetraMai(scanner.nextInt());
 
-		System.out.println("Deseja que contenha letras minusculas?\n1-SIM	2-N√O");
+		System.out.println("Deseja que contenha letras minusculas?\n1-SIM	2-N√ÉO");
 		setLetraMin(scanner.nextInt());
 
-		System.out.println("Deseja que contenha n˙meros?\n1-SIM	2-N√O");
+		System.out.println("Deseja que contenha n√∫meros?\n1-SIM	2-N√ÉO");
 		setNumeros(scanner.nextInt());
 
-		System.out.println("Deseja que contenha caracteres especiais?\n1-SIM	2-N√O");
+		System.out.println("Deseja que contenha caracteres especiais?\n1-SIM	2-N√ÉO");
 		setSpecial(scanner.nextInt());
 	}
 
@@ -84,7 +84,7 @@ public class View {
 		String seedMai = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		String seedMin = "abcdefghijklmnopqrstuvxyzw";
 		String seedNum = "123456789";
-		String seedSpecial = ": ! @ # $% & *";
+		String seedSpecial = ":!@#$%&*";
 		String seedPass = "";
 
 		if (letraMai == 1) {
